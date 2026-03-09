@@ -8,6 +8,7 @@ class SectionTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextStyle estilo = const TextStyle(
+      color: Colors.white,
       fontSize: 24,
       fontWeight: FontWeight.bold,
       letterSpacing: -0.5,

@@ -1346,13 +1346,14 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: 30),
+        const SizedBox(height: 8),
       ],
     );
   }
 
   Widget _buildNewSection() {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const SectionTitle(title: 'Los éxitos del momento'),
         SizedBox(
